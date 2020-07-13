@@ -1,0 +1,34 @@
+section {
+  padding: 150px 0;
+}
+
+.btn-descarga{
+  transition: all 400ms ease-out;
+ }
+ .btn-descarga:hover{
+ transform: scale(1.1);
+ }
+ .btn-descarga img{
+    width: 130px;
+ }
+
+ .btn-download{
+  transition: all 400ms ease-out;
+ }
+ .btn-download:hover{
+ transform: scale(1.1);
+ }
+ .btn-download img{
+    width: 130px;
+    margin-right: 400px;
+ }
+
+ .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
